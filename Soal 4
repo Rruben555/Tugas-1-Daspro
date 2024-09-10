@@ -1,0 +1,18 @@
+program soal4;
+uses crt;
+
+var
+    jalan : string;
+    no : string;
+    kota : string;
+    pos : string;
+
+begin
+clrscr;
+    write('Jalan    : '); readln(jalan); (*input "Alumni"*)
+    write('No       : '); readln(no); (*input "10"*)
+    write('Kota     : '); readln(kota); (*input "Medan"*)
+    write('Kode Pos : '); readln(pos); (*input "20155"*)
+    write('Alamat: Jalan ',jalan,' No ',no,' ',kota,' ',pos,' ');
+    
+end.
