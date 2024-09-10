@@ -1,0 +1,16 @@
+program soal3;
+uses crt;
+
+var
+    nama : string;
+    nim : string;
+    kom : char;
+    alamat : string;
+
+begin
+    write('Masukkan Nama Anda : '); readln(nama); (*input "Diva Syakirahana"*)
+    write('Masukkan NIM Anda : '); readln(nim); (*input "231401077"*)
+    write('Masukkan Kom Anda : '); readln(kom); (*input "B"*)
+    write('Masukkan Alamat Anda : '); readln(alamat);(*input "Jalan Bunga Kamboja"*)
+    write('Hallo, Nama saya ',nama,', NIM saya ',nim,', saya di kom ',kom,', alamat saya di ',alamat,'. Salam Kenal Semua!');
+end.
